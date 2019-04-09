@@ -1,0 +1,270 @@
+/*Menu*/
+.navbar {
+  background-color: #041230;
+   min-height:150px;
+}
+.nav-link {
+  font-size:24px;
+  color:white!important ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+  color:#E3872D!important ;
+}
+
+
+/*première page*/
+.prenom {
+  font-family: 'Montserrat', sans-serif;
+  font-size:50px;
+  color:white;
+}
+.blanco {
+  color:#E3872D;
+}
+.accroche {
+  font-family: 'Montserrat', sans-serif;
+  font-size:24px;
+  color:white;
+}
+/* Centered text */
+.contin {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.txt-rotate
+{
+  color:#E3872D;
+}
+
+/*2ème page*/
+.apropos {
+  padding-bottom: 100px;_
+}
+.aboutme {
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  margin:90px 0px;
+  border-left: 5px solid #E3872D;
+  padding-left: 10px;
+}
+.sousme {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  border-left: 5px solid #E3872D;
+  padding-left: 10px;
+  margin-bottom: 90px;
+}
+
+.photomoi {
+  max-height:350px;
+}
+h4 {
+  font-size:24px;
+}
+
+/*bouton*/
+
+.psuedo-text {
+  color: #E3872D;
+  position: relative;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: inline;
+  height: auto;
+  font-size: 1.5rem;
+  font-size: 700;
+  transition: 0.25s ease-in;
+  transition-delay: 0.1s;
+  padding:20px;
+}
+.button {
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  text-align: center;
+  font-weight: 700;
+  will-change: transform;
+}
+
+.button-mat {
+  color: #5533ff;
+  border: 0px transparent;
+  border-radius: 0.3rem;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.35s;
+  overflow: hidden;
+}
+.button-mat:before {
+  content: "";
+  display: block;
+  background: #041230;
+  position: absolute;
+  width: 200%;
+  height: 500%;
+  border-radius: 100%;
+  transition: 0.36s cubic-bezier(0.4, 0, 1, 1);
+}
+.button-mat:hover .psuedo-text {
+  color: white;
+}
+.button-mat:hover {
+  color: transparent;
+}
+.btn--7 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.btn--7:before {
+  transform: translate(-110%, -110%) translateZ(0);
+}
+.btn--7:hover:before {
+  transform: translate(-45%, -34%) translateZ(0);
+}
+
+/* skills*/
+.skills {
+  background-color: #f6f7fd;
+  padding:90px 0px;
+}
+/*barre de progression*/
+.pourcentage {
+  text-align:right;
+  float:right;
+}
+#competences article .conteneur_progress_bar {
+    height: 5px;
+    border-radius: 4px;
+    background-color: #DDDEE3;
+}
+
+#competences article .conteneur_progress_bar .commun_progress_style {
+    height:5px;
+    border-radius: 4px;
+}
+
+                        /* Animation des barres de progression */
+
+.bar_html {
+    background: black;
+    animation: html 7s forwards 1; /* 1 au lien de infinite */
+}
+@keyframes html { /*temps*/
+    0%{width:0;} /*début*/
+    40%{width:85%;}
+    100%{width:85%;} /*fin*/
+}
+
+.bar_ps {
+    background: black;
+    animation: ps 7s forwards 1;/* 1 au lien de infinite */
+}
+@keyframes ps { /*temps*/
+    0%{width:0;}/*début*/
+    40%{width:75%;}
+    100%{width:75%;}/*fin*/
+}
+
+.bar_pp {
+    background: black;
+    animation: pp 7s forwards 1;/* 1 au lien de infinite */
+}
+@keyframes pp { /*temps*/
+    0%{width:0;}/*début*/
+    40%{width:85%;}
+    100%{width:85%;}/*fin*/
+}
+
+.bar_bootstrap {
+    background: black;
+    animation: framework 7s forwards 1;/* 1 au lien de infinite */
+}
+@keyframes framework {/*temps*/
+    0%{width:0;}/*début*/
+    40%{width:75%;}
+    100%{width:75%;}/*fin*/
+}
+
+.bar_cms {
+    background: black;
+    animation: cms 7s forwards 1;/* 1 au lien de infinite */
+}
+@keyframes cms { /*temps*/
+    0%{width:0;} /*début*/
+    40%{width:30%;}
+    100%{width:30%;}/*fin*/
+}
+
+/*Mes Experiences*/
+/********* Superposition simple de texte sur une image *******/
+/* Conteneur principal */
+.overlay-image {
+ position: relative;
+ width: 100%;
+}
+/* Image originale */
+.overlay-image .image {
+ display: block;
+ width: 100%;
+ height: auto;
+}
+/* Texte original */
+.overlay-image .text {
+ color: #fff;
+ font-size: 30px;
+ line-height: 1.5em;
+ text-shadow: 2px 2px 2px #000;
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 100%;
+}
+/********* Hover image et texte *******/
+/* Overlay */
+.overlay-image .hover {
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .5s ease;
+}
+/* Apparition overlay sur passage souris */
+.overlay-image:hover .hover {
+ opacity: 1;
+}
+/********* Hover background et texte uniquement *******/
+.overlay-image .normal {
+ transition: .5s ease;
+}
+.overlay-image:hover .normal {
+ opacity: 0;
+}
+.overlay-image .hover {
+ background-color: rgba(0,0,0,0.5);
+}
+/* marges vertical pour les images des éxpériences*/
+.marge2
+{
+  margin:15px 0px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #F6F7FD;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
