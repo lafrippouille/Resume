@@ -1,7 +1,7 @@
-/*Menu*/
+/*****************Menu*****************/
 .navbar {
   background-color: #041230;
-   min-height:150px;
+   min-height:15vh;
 }
 .nav-link {
   font-size:24px;
@@ -14,7 +14,8 @@
 }
 
 
-/*première page*/
+
+/*****************première page*****************/
 .prenom {
   font-family: 'Montserrat', sans-serif;
   font-size:50px;
@@ -40,14 +41,16 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
 .txt-rotate
 {
   color:#E3872D;
 }
-
-/*2ème page*/
+.kapas
+{
+  height:85vh;
+  width:100%;
+}
+/*****************2ème page*****************/
 .apropos {
   padding-bottom: 100px;_
 }
@@ -138,6 +141,11 @@ h4 {
   padding:90px 0px;
 }
 /*barre de progression*/
+h6
+{
+  margin-top: 5px;
+}
+
 .pourcentage {
   text-align:right;
   float:right;
@@ -205,8 +213,12 @@ h4 {
     100%{width:30%;}/*fin*/
 }
 
-/*Mes Experiences*/
-/********* Superposition simple de texte sur une image *******/
+
+
+
+
+
+/*****************Mes Experiences*****************/
 /* Conteneur principal */
 .overlay-image {
  position: relative;
@@ -267,4 +279,5 @@ h4 {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  color:black;
 }

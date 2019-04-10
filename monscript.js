@@ -114,37 +114,3 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
-
-
-
-/*****************COMPTEUR**********************/
-$(function () {
-	$(window).on("scroll", function () {
-  	var shivaElement = $('#shiva'),
-    		span = shivaElement.find('.count'),
-    		fire = isOnScreen(span);
-
-    if(fire){
-      $({
-      	Counter: Number(span.text())
-      }).animate({
-        Counter: span.attr('data-total')
-      }, {
-        duration: 2000,
-        easing: 'swing',
-        step: function () {
-          $(span).text(Math.ceil(this.Counter));
-        },
-      });
-    }
-  });
-});
-
-function isOnScreen(element) {
-  var viewPortHeight = $(window).height(), // Viewport Height
-      scrollTop = $(window).scrollTop(), // Scroll Top
-      currElementPosY = $(element).offset().top,
-      elementHeight = $(element).height();
-
-  return (currElementPosY + elementHeight > scrollTop && currElementPosY < (viewPortHeight + scrollTop))
-}
