@@ -1,0 +1,33 @@
+.logo{
+  width:50px;
+  text-align:center;
+}
+p
+{
+  margin:40px 0px;
+}
+
+.hotel{
+  width:100%;
+}
+.margeimage{
+      margin:10px 0px;
+}
+/*****************Menu Expériences*****************/
+.navbar {
+  background-color: #041230;
+   min-height:3vh;
+}
+.nav-link {
+  font-size:15px;
+  color:white!important ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+  color:#E3872D!important ;
+}
+
+body{
+background:linear-gradient(97deg, transparent 50vw , #e0e0e0 1em );
+}
