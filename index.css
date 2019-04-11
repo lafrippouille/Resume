@@ -1,7 +1,7 @@
 /*****************Menu*****************/
 .navbar {
   background-color: #041230;
-   min-height:15vh;
+   min-height:8vh;
 }
 .nav-link {
   font-size:24px;
@@ -12,8 +12,6 @@
 .nav-link:hover {
   color:#E3872D!important ;
 }
-
-
 
 /*****************première page*****************/
 .prenom {
@@ -47,7 +45,7 @@
 }
 .kapas
 {
-  height:85vh;
+  height:92vh;
   width:100%;
 }
 /*****************2ème page*****************/

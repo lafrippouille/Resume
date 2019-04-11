@@ -30,17 +30,17 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link " href="#">
+                    <a class="nav-link " href="#apropos">
                     À PROPOS
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                    SERVICES
+                    <a class="nav-link" href="#competence">
+                    MES COMPÉTENCES
                     </a>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">TRAVAUX</a>
+                    <a class="nav-link" href="#experience">MES EXPÉRIENCES</a>
                 </li>
 
 
@@ -72,8 +72,8 @@
 
 
       <!-- À Propos de moi -->
-      <div class="container apropos">
-        <div class="row aboutme">
+      <div class="container apropos" id="apropos" >
+        <div class="row aboutme" >
           À PROPOS
         </div>
         <!--<div class="row sousme">
@@ -140,7 +140,7 @@
 
 
       <!-- Abilities -->
-      <div class="skills">
+      <div class="skills" id="competence">
         <div class="container">
           <div class="row">
             <div class="col-lg-4">
@@ -177,7 +177,7 @@
         </div>
       </div>
 
-      <div class="container"><!-- Mes Travaux -->
+      <div class="container" id="experience"><!-- Mes Travaux -->
         <div class="row aboutme">
           MES EXPERIENCES
         </div>
@@ -215,6 +215,11 @@
                 Contact avec la presse : proposition de test produits<br/><br/>
                 Veille : recueillir les informations produits,
                 suivi des athlètes.</p>
+                <a href="continental.html"><button class="button button-mat btn--7">
+                  <div class="psuedo-text">
+                    En savoir plus
+                  </div>
+                </button></a>
             </div>
           </div>
           <div class="col-lg-5">
@@ -231,7 +236,7 @@
                 Lancement de nouvelles campagnes, optimisation des budgets, gestion de campagnes en Search et Display.<br/><br/>
                 Gestion des réseaux sociaux et Facebook Ads.<br/><br/>
                 Community management pour chaque client sur Facebook et Instagram.</p>
-              <a href="continental.html"><button class="button button-mat btn--7">
+              <a href="swell.html"><button class="button button-mat btn--7">
                 <div class="psuedo-text">
                   En savoir plus
                 </div>
@@ -257,6 +262,51 @@
               </div>
           </div>
         </div>
+      </div>
+
+      <div class="container">
+      	<div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="well well-sm">
+                <form class="form-horizontal" action="" method="post" name="contact" method="POST" data-netlify="true">
+                <fieldset>
+                  <legend class="text-center">Contact us</legend>
+
+                  <!-- Name input-->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="name">Name</label>
+                    <div class="col-md-9">
+                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Email input-->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                    <div class="col-md-9">
+                      <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Message body -->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="message">Votre message</label>
+                    <div class="col-md-9">
+                      <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                    </div>
+                  </div>
+
+                  <!-- Form actions -->
+                  <div class="form-group">
+                    <div class="col-md-12 text-right">
+                      <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+                    </div>
+                  </div>
+                </fieldset>
+                </form>
+              </div>
+            </div>
+      	</div>
       </div>
 
     <!--  <div class="container">Jordi en quelques chiffres
