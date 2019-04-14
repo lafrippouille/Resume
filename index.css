@@ -1,3 +1,4 @@
+
 /*****************Menu*****************/
 .navbar {
   background-color: #041230;
@@ -30,26 +31,32 @@
   color:white;
 }
 /* Centered text */
-.contin {
-    position: relative;
-    text-align: center;
-}
 
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .txt-rotate
 {
   color:#E3872D;
 }
-.kapas
+.conteneur
 {
-  height:94vh;
   width:100%;
+  height:94vh;
 }
+#particles-js
+{
+  background-image: url(./images/kapas5002.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100%
+}
+
 /*****************2ème page*****************/
 .apropos {
   padding-bottom: 100px;_
@@ -75,6 +82,8 @@
 h4 {
   font-size:24px;
 }
+.cadreinfo >li
+{margin-top:10px;}
 
 /*******bouton*********/
 
