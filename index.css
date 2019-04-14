@@ -1,10 +1,11 @@
 /*****************Menu*****************/
 .navbar {
   background-color: #041230;
-   min-height:8vh;
+   min-height:6vh;
 }
 .nav-link {
-  font-size:24px;
+  font-size:1.3rem;
+  margin:0px 11px;
   color:white!important ;
   font-family: 'Montserrat', sans-serif;
 }
@@ -21,6 +22,7 @@
 }
 .blanco {
   color:#E3872D;
+  margin-left: 15px;
 }
 .accroche {
   font-family: 'Montserrat', sans-serif;
@@ -45,7 +47,7 @@
 }
 .kapas
 {
-  height:92vh;
+  height:94vh;
   width:100%;
 }
 /*****************2ème page*****************/
@@ -287,4 +289,8 @@ h6
 .btn
 {
   background-color: #E3872D;
+}
+p
+{
+    font-family: 'Montserrat', sans-serif;
 }

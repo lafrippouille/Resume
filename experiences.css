@@ -5,6 +5,8 @@
 p
 {
   margin:40px 0px;
+  text-align: justify;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hotel{
@@ -13,6 +15,7 @@ p
 .margeimage{
       margin:10px 0px;
       text-align: right;
+        font-family: 'Montserrat', sans-serif;
 }
 
 .titre{
@@ -20,14 +23,17 @@ p
   margin-top: 15px;
   margin-bottom: 20px;
   color: #E3872D;
+    font-family: 'Montserrat', sans-serif;
 }
 /*****************Menu Expériences*****************/
+/*****************Menu*****************/
 .navbar {
   background-color: #041230;
-   min-height:3vh;
+   min-height:6vh;
 }
 .nav-link {
-  font-size:15px;
+  font-size:1.3rem;
+  margin:0px 11px;
   color:white!important ;
   font-family: 'Montserrat', sans-serif;
 }
